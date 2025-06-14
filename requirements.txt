@@ -1,1 +1,1 @@
-fpdf2>=2.5.0
+pyperclip
