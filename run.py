@@ -1,4 +1,4 @@
-# main.py
+# run.py
 
 import os
 from templates import ah1, ah2
@@ -12,7 +12,7 @@ def ensure_output_dir():
     if not os.path.exists("output"):
         os.makedirs("output")
 
-def main():
+def run():
     print("\nPDF Generator")
     print("-------------")
     print("Available templates:")
@@ -25,7 +25,4 @@ def main():
         TEMPLATES[choice]()  # Call the selected PDF generator
     else:
         print("❌ Invalid choice. Exiting.")
-
-if __name__ == "__main__":
-    main()
 
