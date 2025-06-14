@@ -1,7 +1,7 @@
 # run.py
 
 import os
-from templates import ah1, ah2
+from .templates import ah1, ah2
 
 TEMPLATES = {
     "ah1": ah1.generate_pdf,
