@@ -1,11 +1,10 @@
 # run.py
 
 import os
-from .templates import ah1, ah2
+from .templates import ah1
 
 TEMPLATES = {
     "ah1": ah1.generate_pdf,
-    "ah2": ah2.generate_pdf,
 }
 
 def ensure_output_dir():
